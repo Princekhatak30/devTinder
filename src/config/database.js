@@ -5,5 +5,4 @@ const connectDb = async ()=>{
         "mongodb+srv://princeNodejs:WfCgoNIqbTiYcEap@namastenodjs.8utqg.mongodb.net/devTinder"
     )
 }
-
 module.exports = connectDb

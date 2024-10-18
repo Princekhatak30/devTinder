@@ -14,7 +14,7 @@ app.post('/signup', async (req,res)=>{
         res.status(400).send('error saving the user')
     }
 })
-
+  
 connectDb().then(()=>{
     console.log('database connection establised');
     app.listen(8088,()=>{
